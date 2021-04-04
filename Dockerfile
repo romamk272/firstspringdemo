@@ -1,6 +1,6 @@
 FROM alpine/git as clone 
 WORKDIR /app
-RUN git clone https://Spring_Codecommit_user-at-456589935098@git-codecommit.us-east-1.amazonaws.com/v1/repos/SpringDemo_Codecommit
+RUN git clone https://github.com/romamk272/firstspringdemo.git
 
 FROM maven:3.5-jdk-8-alpine as build 
 WORKDIR /app
