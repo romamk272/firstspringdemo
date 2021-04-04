@@ -5,7 +5,6 @@ phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
-      - cd springdemo
       - aws --version
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
       - REPOSITORY_URI=456589935098.dkr.ecr.us-east-1.amazonaws.com/firstspringdemo
