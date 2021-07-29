@@ -1,4 +1,4 @@
-package com.amar.springdemo.entity
+package com.amar.springdemo.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
